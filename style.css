@@ -35,18 +35,18 @@ table tr:first-child
 {
 	background: orangered;
 	color: white;
-	font-size: x-large;
+	font-size: medium;
 }
 tr,td
 {
 	border-bottom: 2px solid lightgray;
-	font-size: x-large;
+	font-size: medium;
 	text-align: left;
 }
 #League
 {
 	font-size:40px;
-	font-weight: bold;
+	font-weight: lighter;
 	font-family: 'Times New Roman', Times, serif;
 }
 #Match
@@ -62,7 +62,7 @@ tr,td
 	top: 50px;
 	margin-left: 200px;
 	font-size: 18px;
-	font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
     
 }
