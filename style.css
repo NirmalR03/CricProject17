@@ -1,0 +1,68 @@
+
+body
+{
+	background-image: url(assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-position: bottom  right;
+	background-size: 60%;
+}
+.container
+{
+	position: relative;
+	height: 80vh;
+}
+.Heading
+{
+	margin-top: 100px;
+	margin-left: 10%;
+	margin-bottom:3%;
+}
+.logo
+{
+	 position: absolute;
+	 top: 10px;
+	 right: 100px;
+}
+table
+{
+	width: 70%;
+	height: 410px;
+	margin-left: 50px;
+    border-collapse: collapse;
+	background-color: white;
+}
+table tr:first-child
+{
+	background: orangered;
+	color: white;
+	font-size: x-large;
+}
+tr,td
+{
+	border-bottom: 2px solid lightgray;
+	font-size: x-large;
+	text-align: left;
+}
+#League-Name
+{
+	font-size:40px;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+#Match-Name
+{
+	font-size: 25px;
+	color: gray;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 50px;
+	margin-left: 200px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    
+}
